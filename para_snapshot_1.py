@@ -35,5 +35,5 @@ run = BasicRunner(
 )
 run.start()
 
-Snapshot= PVSnapshot(args=["--state=/mnt/d/openfoam/01-pimple-paraview/pimple/pimple1.pvsm","--latest-time",Newcase])
+Snapshot= PVSnapshot(args=["--state=pimple1.pvsm","--latest-time",Newcase])
 
